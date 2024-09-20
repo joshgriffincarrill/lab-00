@@ -23,8 +23,8 @@ team_data <- tibble(
                       "username 3", "username 4"), 
   colour = c("purple", "red", "sienna1", 
              "slategrey", "yellowgreen"),
-  hobby = c("reading", "hobby 1", "hobby 2", 
-            "hobby 3", "hobby 4"),
+  hobby = c("reading", "walking", "gym", 
+            "gaming", "running"),
   favourite_number = c(10, 7, 6, 5, 4)
   )
 
