@@ -47,7 +47,7 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+*shows the groups favourite numbers and shades them with their favourite colour*
 
 ### Exercises 19
 
