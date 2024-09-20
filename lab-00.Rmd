@@ -17,8 +17,8 @@ We set up the data frame. Edit the data below to include information about your 
 
 ```{r setup-tibble}
 team_data <- tibble(
-  name = c("Josh", "member 1", "member 2", 
-           "member 3", "member 4"),
+  name = c("Josh", "Larry", "Larry", 
+           "Ethan", "Gordon"),
   github_username = c("joshgriffincarrill", "username 1", "username 2", 
                       "username 3", "username 4"), 
   colour = c("purple", "red", "colour 2", 
@@ -54,12 +54,12 @@ p1
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Github Usernames", 
+          y = "Favourite Number",
+          title = "Favourite Numbers of the Group")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+*labs() add labels*
 
 ### Exercise 20
 
